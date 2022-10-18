@@ -3,7 +3,6 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
 import Resume from '../pages/Resume';
-import Contact from '../pages/Contact';
 
 
 const Nav = () => {
@@ -18,7 +17,7 @@ const Nav = () => {
                         <a href="/about" element={<About />} className="nav-link w-nav-link hover:text-lime-500 px-4">About</a>
                         <a href="/portfolio" element={<Portfolio />} className="nav-link w-nav-link hover:text-lime-500 px-4">Portfolio</a>
                         <a href="/resume" element={<Resume />} className="nav-link w-nav-link hover:text-lime-500 px-4">Resume</a>
-                        <a href="/contact" element={<Contact />} className="nav-link contact w-nav-link hover:text-lime-500 px-4">Contact</a>
+                        <a href="mailto:xiovacc@gmail.com" rel="noreferrer" target="_blank" className="nav-link contact w-nav-link hover:text-lime-500 px-4">Contact</a>
                     </nav>
                 </div>
         </div>
